@@ -1,0 +1,74 @@
+.jumbotron {
+    background-color: #232946;
+}
+.jumbotron img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(10, 4, 125);
+}
+.jumbotron p{
+    color: #b8c1ec;
+}
+.jumbotron h1 {
+    font-size: 50px;
+    color: #fffffe;
+}
+.about hr {
+    border-top:3px solid black;
+    width: 200px;
+}
+.about {
+    height: 400px;
+}
+.porto {
+    background-color: #232946;
+    padding-bottom: 80px;
+}
+.porto h1 {
+    padding-top: 20px;
+    color: #fffffe;
+}
+.porto hr {
+    width: 200px;
+}
+.porto img {
+    margin-left: 60px;
+}
+.overlay {
+    width: 0;
+    height: 0;
+    position: fixed;
+    background: rgba(183, 181, 181, 0.85);
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    transition: 0.9s;
+    z-index: 909;
+    text-align: center;
+    padding-top: 40px;
+padding-bottom: 40px;
+}
+.overlay:target {
+    line-height: 400px;
+    width: auto;
+    height: auto;
+    right: 0;
+    left: 0;
+}
+.overlay img {
+    top: auto;
+    width:600px;
+    height: 300px;
+    margin-top: 150px;
+}
+.overlay .close a {
+    position: absolute;
+    left: 50%;
+    bottom: 29%;
+    color: black;
+   text-decoration: none;
+
+}
+.nav-pills {
+    background-color: #000000;
+}
